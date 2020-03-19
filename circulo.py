@@ -1,0 +1,6 @@
+A = int(input('¿A?'))
+B = int(input('¿B?'))
+C = int(input('¿C?'))
+raiz = (B*B-(4*A*C)/(B*B-(4*A*C)
+   print ((- B-raiz)/2*A)
+   print ((- B+raiz)/2*A)
