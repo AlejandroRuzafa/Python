@@ -1,10 +1,4 @@
-git init
 
-git add .
-
-git commit -m "first commit"
-git remote add origin https://github.com/AlejandroRuzafa/galletitas-alemanas.git
-git push -u origin master
 # El juego de fantasmas
 from random import randint
 print ('El juego de fantasmas')
