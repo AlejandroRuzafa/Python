@@ -3,7 +3,6 @@ from random import randint
 PIEDRA = 1
 TIJERA = 2 
 PAPEL = 3
-Total_de_partidas = 5
 
 def maquina():
     a = randint(1,3)
@@ -27,16 +26,16 @@ def funcion(n1,n2):
 
 def valor(codigo):
     if codigo == PIEDRA:
-        return f"PIEDRA"
+        return f"🗿"
     elif codigo == TIJERA:
-        return f"TIJERA"
+        return f"✂️"
     else:
-        return f"PAPEL"
+        return f"🧻"
 
 if __name__ == "__main__":
     puntos_maquina = 0
     puntos_usuario = 0
-    TOTAL_PARTIDAS = 2
+    TOTAL_PARTIDAS = 5
     
     while puntos_usuario < TOTAL_PARTIDAS and puntos_maquina < TOTAL_PARTIDAS :
         
@@ -59,5 +58,13 @@ if __name__ == "__main__":
         
         print(f"Puntuación:Máquina: {puntos_maquina} - Humano: {puntos_usuario}")
 
-
+    # assert funcion(PIEDRA,PIEDRA) == 0
+    # assert funcion(PIEDRA,PAPEL) == 1
+    # assert funcion(PIEDRA,TIJERA) == -1
+    # assert funcion(PAPEL, PIEDRA) == -1
+    # assert funcion(PAPEL, PAPEL) == 0
+    # assert funcion(PAPEL, TIJERA) == 1 
+    # assert funcion(TIJERA,PIEDRA) == -1
+    # assert funcion(TIJERA,PAPEL) == -1
+    # assert funcion(TIJERA,TIJERA) == 0
 
