@@ -1,0 +1,9 @@
+def arr(n): 
+    n_actual = 0 
+    lista = []
+    for n in range(0, n ):
+        lista.append(n_actual)
+        n_actual = n_actual + 1
+    return(lista)
+    
+
